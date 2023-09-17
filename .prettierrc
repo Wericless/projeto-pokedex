@@ -1,0 +1,30 @@
+{
+	"semi": true,
+	"useTabs": true,
+	"tabWidth": 4,
+	"overrides": [
+		{
+			"files": "*.js,.vue",
+			"options": {
+				"useTabs": true,
+				"singleQuote": true,
+				"bracketSpacing": true,
+				"arrowParens": "avoid"
+			}
+		},
+		{
+			"files": "*.json",
+			"options": {
+				"singleQuote": false,
+				"bracketSpacing": true
+			}
+		},
+		{
+			"files": "*.scss",
+			"options": {
+				"singleQuote": true,
+				"bracketSpacing": true
+			}
+		}
+	]
+}
