@@ -7,10 +7,4 @@ export const httpPokemon = axios.create({
 	},
 });
 
-export default {
-	getPokemonGif() {
-		return httpPokemon.get(
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/132.gif"
-		);
-	},
-};
+export default instance;
