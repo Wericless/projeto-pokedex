@@ -1,26 +1,26 @@
-// import { createRouter, createWebHashHistory } from "vue-router";
-// import HomeView from "../views/HomeView.vue";
+import { createRouter, createWebHistory } from "vue-router";
+import Ash from "../views/Ash.vue";
+import Misty from "../views/Misty.vue";
+import Brock from "../views/Brock.vue";
 
-// const routes = [
-// 	{
-// 		path: "/",
-// 		name: "home",
-// 		component: HomeView,
-// 	},
-// 	{
-// 		path: "/NomePokemon",
-// 		name: "nome",
-// 		// route level code-splitting
-// 		// this generates a separate chunk (about.[hash].js) for this route
-// 		// which is lazy-loaded when the route is visited.
-// 		component: () =>
-// 			import(/* webpackChunkName: "about" */ "../views/NomePokemon.vue"),
-// 	},
-// ];
+const routes = [
+	{
+		path: "/ash",
+		component: Ash,
+	},
+	{
+		path: "/misty",
+		component: Misty,
+	},
+	{
+		path: "/brock",
+		component: Brock,
+	},
+];
 
-// const router = createRouter({
-// 	history: createWebHashHistory(),
-// 	routes,
-// });
+const router = createRouter({
+	history: createWebHistory(),
+	routes,
+});
 
-// export default router;
+export default router;
